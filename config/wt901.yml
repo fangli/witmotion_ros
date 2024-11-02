@@ -1,6 +1,7 @@
 witmotion:
   ros__parameters:
-    port: ttyS0
+    #port: ttyS0
+    port: ttyAMA0
     baud_rate: 115200 # baud
     polling_interval: 20 # ms
     timeout_ms: 200 # ms
